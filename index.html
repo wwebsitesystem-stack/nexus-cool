@@ -1,50 +1,125 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Galactic Odyssey</title>
-<style>
-body {
-  background-image: linear-gradient(to bottom, #0f0f0f, #0f0f0f);
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
 
-.container {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 20px;
-  background-color: #333;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
 
-.header {
-  background-image: linear-gradient(to bottom, #333, #333);
-  padding: 20px;
-  text-align: center;
-}
+        .header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
 
-.header h1 {
-  color: #fff;
-  font-size: 36px;
-  font-weight: bold;
-}
+        .header nav {
+            margin-top: 20px;
+        }
 
-.header p {
-  color: #fff;
-  font-size: 18px;
-  margin-bottom: 20px;
-}
+        .header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
 
-.content {
-  padding: 20px;
-}
+        .header nav ul li {
+            margin-right: 20px;
+        }
 
-.content h2 {
-  color: #fff;
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
+        .header nav a {
+            color: #fff;
+            text-decoration: none;
+        }
 
-.content<a href="https://textnexus.me" target="_blank" style="position: fixed; bottom: 16px; right: 16px; z-index: 999999; font-family: sans-serif; font-size: 11px; font-weight: 600; color: #ededed; background-color: rgba(18, 18, 18, 0.9); border: 1px solid #262626; padding: 6px 12px; border-radius: 9999px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">Powered by Nexus • textnexus.me</a>
+        .header nav a:hover {
+            color: #ccc;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .main .title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .main .description {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .main .button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .main .button:hover {
+            background-color: #555;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+
+        .footer p {
+            margin-bottom: 10px;
+        }
+
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>My Cool Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <h2 class="title">Welcome to my website!</h2>
+        <p class="description">This is a sample website created for demonstration purposes.</p>
+        <button class="button">Learn More</button>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 My Cool Website</p>
+        <p><a href="#">Terms and Conditions</a> | <a href="#">Privacy Policy</a></p>
+    </footer>
+<a href="https://textnexus.me" target="_blank" style="position: fixed; bottom: 16px; right: 16px; z-index: 999999; font-family: sans-serif; font-size: 11px; font-weight: 600; color: #ededed; background-color: rgba(18, 18, 18, 0.9); border: 1px solid #262626; padding: 6px 12px; border-radius: 9999px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">Powered by Nexus • textnexus.me</a></body>
+</html>
